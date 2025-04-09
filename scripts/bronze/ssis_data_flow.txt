@@ -1,0 +1,17 @@
+[Sequence Container: Seq_Load_Bronze]
+    ├── [Data Flow Task: Load CSV_crm_customers    → bronze.crm_customers]
+    ├── [Data Flow Task: Load CSV_crm_transactions → bronze.crm_transactions]
+    ├── [Data Flow Task: Load CSV_erp_stores       → bronze.erp_stores]
+    ├── [Data Flow Task: Load CSV_erp_employees    → bronze.erp_employees]
+    ├── [Data Flow Task: Load CSV_erp_products     → bronze.erp_products]
+    ├── [Data Flow Task: Load CSV_erp_discounts    → bronze.erp_discounts]
+
+         |
+         V  
+[Sequence Container: Seq_Load_Silver]
+    ├── [Data Flow Task: Select bronze.crm_customers    → [Transform, Clean] → silver.crm_customers]
+    ├── [Data Flow Task: Select bronze.crm_transactions → [Transform, Clean] → silver.crm_transactions]
+    ├── [Data Flow Task: Select bronze.erp_stores       → [Transform, Clean] → silver.erp_stores]
+    ├── [Data Flow Task: Select bronze.erp_employees    → [Transform, Clean] → silver.erp_employees]
+    ├── [Data Flow Task: Select bronze.erp_products     → [Transform, Clean] → silver.erp_products]
+    ├── [Data Flow Task: Select bronze.erp_discounts    → [Transform, Clean] → silver.erp_discounts]    
