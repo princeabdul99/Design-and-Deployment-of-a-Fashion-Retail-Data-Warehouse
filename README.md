@@ -5,7 +5,7 @@ Building a modern data warehouse with SQL Server, including ETL processes, data 
 ## 🏗 Data Architecture
 
 The data architecture for this project follow the Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
-![image_alt](https://github.com/princeabdul99/Design-and-Deployment-of-a-Fashion-Retail-Data-Warehouse/blob/4f218586e580a774b493d702cde82746edba9ae2/docs/architecture.png)  
+![image_alt](https://github.com/princeabdul99/Design-and-Deployment-of-a-Fashion-Retail-Data-Warehouse/blob/645bddfc991cd25d4f1b02ded96ffb187f62edcc/docs/architecture.png)  
 
 1. **Bronze Layer:** Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 2. **Silver Layer:** This layer includes data cleansing, standardization processes to prepare data for analysis.
