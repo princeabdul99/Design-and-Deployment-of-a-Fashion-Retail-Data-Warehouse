@@ -62,7 +62,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 ```
 Design-and-Deployment-of-a-Fashion-Retail-Data-Warehouse/
 │
-├── datasets/                           # Raw datasets used for the project (ERP, HR, CRM and POS data)
+├── datasets/                           # Raw datasets used for the project (ERP, CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
 │   ├── data_architecture.png           # Shows the project's architecture
