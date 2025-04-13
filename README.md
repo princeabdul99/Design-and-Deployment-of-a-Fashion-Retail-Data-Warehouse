@@ -1,5 +1,5 @@
-# Enterprise Data Warehouse for Fashion Retail Analytics
-Building a modern data warehouse with SQL Server, including ETL processes, data modeling and analytics.
+# Global Fashion Retail Reimagined Through Data Warehousing
+By integrating diverse data sources into a single, reliable platform, the solution enhances data consistency, supports real-time insights, and empowers stakeholders with the analytics needed to drive strategic decisions across international markets.
 
 ---
 ## 🏗 Data Architecture
@@ -30,10 +30,10 @@ This project involves:
 ---
 ## 🚀 Project Requirements
 
-### Design and Deployment of a Fashion Retail Data Warehouse
+### Design and Deployment of a Global Fashion Retail Data Warehouse
 
 #### Objective
-Build a robust and scalable data warehouse solution using SQL Server and SSIS to consolidate fashion retail sales data from multiple sources, ensuring data accuracy and performance optimization, while empowering business users with actionable insights for inventory control, sales analysis, and strategic decision-making.
+The objective of this project is to design and implement a scalable data warehouse solution that consolidates global fashion retail sales data from multiple sources into a centralized repository. This data warehouse will support advanced reporting, trend analysis, and decision-making by providing clean, consistent, and timely sales insights across various regions, product categories, and time periods. The solution aims to improve data accessibility, enhance business intelligence capabilities, and enable strategic planning for global retail operations.
 
 #### Specifications
 - **Data Sources**: Import data from source system provided as CSV files.
@@ -42,15 +42,22 @@ Build a robust and scalable data warehouse solution using SQL Server and SSIS to
 - **Scope**: Focus on the latest dataset only; historization of data is not required.
 - **Documentation**: Provide clear documentation on the data model to support both business stakeholders and analytics teams.
 
+#### Dataset Overview
+The synthetic dataset simulates two years of transactional data for a multinational fashion retailer, featuring:
+- **4+ million sales records**
+- **35 Stores** accross 7 countries: 
+🇺🇸 United States | 🇨🇳 China | 🇩🇪 Germany | 🇬🇧 United Kingdom | 🇫🇷 France | 🇪🇸 Spain | 🇵🇹 Portugal
+
 ---
 ### BI: Analytics & Reporting (Data Analysis)
 
 #### Objective
-Develop SQL-based analytics to deliver detailed insight into:
+Develop SQL-based multifaceted analytics to deliver detailed insight into:
 - **Geographic Sales Comparison**
 - **Analyze Staffing and Performance**
 - **Customer Behavior and Segmentation**
 - **Product Trends**
+- **Multi-Currency Analysis**
 - **Pricing and Discount Analysis**
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
@@ -63,7 +70,6 @@ Design-and-Deployment-of-a-Fashion-Retail-Data-Warehouse/
 ├── datasets/                           # Raw datasets used for the project (ERP, HR, CRM and POS data)
 │
 ├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
 │   ├── data_architecture.png           # Shows the project's architecture
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
 │   ├── data_flow.drawio                # Draw.io file for the data flow diagram
