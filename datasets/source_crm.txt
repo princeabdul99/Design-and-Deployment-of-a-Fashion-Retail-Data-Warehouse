@@ -1,0 +1,2 @@
+# The CRM raw data is too large (i.e: customers.csv, transactions.csv). Please visit the site kaggle and download the resource file.
+Link Here: 'https://www.kaggle.com/datasets/ricgomes/global-fashion-retail-stores-dataset/data'
