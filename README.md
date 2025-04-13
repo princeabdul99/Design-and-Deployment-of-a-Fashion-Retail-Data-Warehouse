@@ -19,13 +19,7 @@ This project involves:
 3. **Data Modelling**: Developing fact and dimension tables optimized for analytical queries.
 4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
-🎯 This repository showcase my expertise in: 
-- SQL Development
-- Data Architecture
-- Data Engineering
-- ETL Pipeline Development
-- Data Modeling
-- Data Analytics
+
 
 ---
 ## 🚀 Project Requirements
@@ -47,6 +41,7 @@ The synthetic dataset simulates two years of transactional data for a multinatio
 - **4+ million sales records**
 - **35 Stores** accross 7 countries: 
 🇺🇸 United States | 🇨🇳 China | 🇩🇪 Germany | 🇬🇧 United Kingdom | 🇫🇷 France | 🇪🇸 Spain | 🇵🇹 Portugal
+- **Source: [Kaggle](https://www.kaggle.com/datasets/ricgomes/global-fashion-retail-stores-dataset/data)**
 
 ---
 ### BI: Analytics & Reporting (Data Analysis)
